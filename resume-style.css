@@ -1,0 +1,35 @@
+.container {
+    display:grid;
+    grid-template-areas:
+    "headshot header"
+    "contact skills"
+    "contact experience"
+    "contact education"
+    
+}
+.headshot { 
+    grid-area: headshot;
+
+}
+.header {
+    grid-area:header
+     
+    
+      }
+      
+.contact {
+    grid-area:contact
+
+}
+.skills {
+    grid-area:skills
+}
+.experience{
+    grid-area:experience
+}
+.education{
+    grid-area:education
+}
+
+
+
